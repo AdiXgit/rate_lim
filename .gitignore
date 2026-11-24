@@ -1,0 +1,17 @@
+# Cerebe per-dev overlay (restrict-only; leftover darkfactory.* still ignored)
+cerebe.local.yaml
+cerebe.local.yml
+darkfactory.local.yaml
+darkfactory.local.yml
+# Binaries
+ratelimiter
+*.exe
+
+# Test and tool output
+*.test
+*.out
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store
